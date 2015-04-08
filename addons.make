@@ -1,0 +1,6 @@
+ofxGui
+ofxOpenCv
+ofxOsc
+ofxXmlSettings
+ofxControlease
+ofxSyphon
