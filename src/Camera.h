@@ -13,6 +13,7 @@
 #include "ofMain.h"
 #include <dc1394/dc1394.h>
 #include "ofxOpenCv.h"
+#include "ofxSyphon.h"
 
 #include "Params.h"
 
@@ -35,6 +36,10 @@ public:
     ofImage simpleImage;
 
     bool bInitialized;
+    
+    
+	ofxSyphonServer flea3SyphonServer;
+
 
 private:
     unsigned int imgWidth, imgHeight;

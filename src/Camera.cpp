@@ -31,6 +31,9 @@ bool Camera::setup()
         return false;
     }
     
+    flea3SyphonServer.setName("flea3");
+
+
     return true;
 }
 
@@ -74,6 +77,8 @@ void Camera::draw()
 //    cvRaw8Img.draw(0, 0);
   //  camImg.draw(0, 0);
     simpleImage.draw(0, 0);
+    flea3SyphonServer.publishScreen();
+
 //    img.draw(0, 0);
 }
 

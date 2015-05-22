@@ -23,7 +23,7 @@ void testApp::draw(){
     
     mtracker.draw();
     
-    gui.draw();
+ //   gui.draw();
 
     ofSetColor(255);
     stringstream ss;
